@@ -9,3 +9,9 @@ spring:
     mongodb:
       uri: mongodb://localhost/a3
 
+
+jwt:
+  secret: aadsadasdsadasdasd
+  get:
+    token:
+      uri: /authenticate
